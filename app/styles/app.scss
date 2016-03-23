@@ -1,0 +1,30 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.login-button{
+  width: 100px;
+}
+
+.message-input{
+  width: 950px;
+}
+.message-box{
+  border: 1px solid grey;
+  height: 200px;
+  margin-top: 20px;
+}
